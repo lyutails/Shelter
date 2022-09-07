@@ -1,0 +1,6012 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("../../references/fonts/fonts/georgia/georgia-regular.woff") format("woff");
+  src: url("../../references/fonts/fonts/georgia/georgia-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("../../references/fonts/fonts/georgia/georgia-italic.woff") format("woff");
+  src: url("../../references/fonts/fonts/georgia/georgia-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("../../references/fonts/fonts/georgia/georgia-bold.woff") format("woff");
+  src: url("../../references/fonts/fonts/georgia/georgia-bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("../../references/fonts/fonts/arial/arial-regular.woff") format("woff");
+  src: url("../../references/fonts/fonts/arial/arial-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("../../references/fonts/fonts/arial/arial-italic.woff") format("woff");
+  src: url("../../references/fonts/fonts/arial/arial-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("../../references/fonts/fonts/arial/arial-bold.woff") format("woff");
+  src: url("../../references/fonts/fonts/arial/arial-bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: bold;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.pet_name, .pet_button, .slider_cards_pets_for_adoption_2 .pet_name, .slider_cards_pets_for_adoption_2 .pet_button, .slider_cards_pets_for_adoption_3 .pet_name, .slider_cards_pets_for_adoption_3 .pet_button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.start_screen {
+  width: 100%;
+  height: 908px;
+  background-image: url(../../references/pics/background/Start_screen-1.jpg);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 60px;
+  padding: 60px 40px 60px 40px;
+}
+
+.header_elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+  width: 184px;
+  height: 60px;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 110%;
+  color: #F1CDB3;
+  text-decoration: none;
+}
+
+.logo_top_cozy {
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.logo_top_house {
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+.logo_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 10px 1px 0px 4px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.hamburger_menu_button {
+  display: none;
+}
+
+.start_navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 443px;
+  height: 27px;
+}
+
+/*.underline_about_the_shelter {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;                    
+                }
+
+                .link_active{                    
+                    width: 114px;
+                    height: 3px;                       
+                    background-image: url(../../references/icons/border_link_active.svg);
+                }*/
+.navigation_about {
+  padding: 0px 35px 0px 0px;
+  cursor: pointer;
+  color: #CDCDCD;
+  width: 114px;
+}
+
+.navigation_about {
+  text-decoration: none;
+}
+
+.navigation_about:hover {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+.navigation_about:hover::after {
+  content: " ";
+  width: 112px;
+  height: 3px;
+  opacity: 100%;
+  background: #f1cdb3;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  display: inline-block;
+}
+
+.navigation_pets {
+  padding: 0px 35px 0px 0px;
+  cursor: pointer;
+  color: #CDCDCD;
+  width: 58px;
+}
+
+.navigation_pets {
+  text-decoration: none;
+}
+
+.navigation_pets:hover {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+.navigation_pets:hover::after {
+  content: " ";
+  width: 58px;
+  height: 3px;
+  opacity: 100;
+  background: #f1cdb3;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  display: inline-block;
+}
+
+.navigation_help {
+  padding: 0px 35px 0px 0px;
+  cursor: pointer;
+  color: #CDCDCD;
+  width: 106px;
+}
+
+.navigation_help {
+  text-decoration: none;
+}
+
+.navigation_help:hover {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+.navigation_help:hover::after {
+  content: " ";
+  width: 106px;
+  height: 3px;
+  opacity: 100;
+  background: #f1cdb3;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  display: inline-block;
+}
+
+.navigation_contacts {
+  padding: 0px 0px 0px 0px;
+  cursor: pointer;
+  color: #CDCDCD;
+  width: 60px;
+}
+
+.navigation_contacts {
+  text-decoration: none;
+}
+
+.navigation_contacts:hover {
+  text-decoration: none;
+  color: #FAFAFA;
+}
+
+.navigation_contacts:hover::after {
+  content: " ";
+  width: 60px;
+  height: 3px;
+  opacity: 100;
+  background: #f1cdb3;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  display: inline-block;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 728px;
+}
+
+.intro_elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.intro_content {
+  width: 460px;
+  height: 322px;
+  margin: 163px 42px 243px 0px;
+}
+
+.intro_info_title {
+  width: 310px;
+  height: 114px;
+  margin: 0px 150px 42px 0px;
+}
+
+.intro_info_text {
+  width: 460px;
+  height: 72px;
+  margin: 0px 0px 42px 0px;
+}
+
+.anchor_for_intro_button:hover {
+  text-decoration: none;
+}
+
+.intro_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 45px;
+  width: 207px;
+  height: 52px;
+  background: #F1CDB3;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  position: static;
+  left: 21.74%;
+  right: 21.74%;
+  top: 28.85%;
+  bottom: 28.85%;
+  letter-spacing: 0.02em;
+  margin: 0px 253px 0px 0px;
+  cursor: pointer;
+}
+
+.intro_button:hover {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.intro_picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 698px;
+  height: 728px;
+}
+
+.about {
+  height: 588px;
+  background: #FFFFFF;
+}
+
+.layout-2-columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 1200px;
+  height: 408px;
+  padding: 80px 20px 100px 20px;
+}
+
+.about_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 430px;
+  height: 380px;
+  margin: 14px 75px 14px 0px;
+}
+
+.about-title {
+  width: 370px;
+  height: 90px;
+}
+
+.about_text_first_part {
+  width: 430px;
+  height: 96px;
+}
+
+.about_picture {
+  margin: 0px 120px 0px 175px;
+}
+
+.friends {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 877px;
+  background: #F6F6F6;
+}
+
+.pets_content {
+  width: 1200px;
+  height: 697px;
+  margin: 0px 0px 12px 0px;
+}
+
+.friends_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 400px;
+  height: 90px;
+  margin: 0px 400px 60px 400px;
+}
+
+.slider_pets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 435px;
+}
+
+.slider_button_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  padding: 23px 19px;
+  margin: 192px 0px 191px 0px;
+  background: #F6F6F6;
+  cursor: pointer;
+}
+
+.slider_button_arrow_left {
+  width: 14px;
+  height: 6px;
+  background-image: url(../../references/icons/Arrow_slider_left.svg);
+}
+
+.slider_button_left:hover {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.carousel_wrapper {
+  width: 990px;
+  height: 435px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+}
+
+.carousel_moveit {
+  width: 990px;
+  height: 435px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+}
+
+/*.movement_right {
+                animation-name: move_right;
+                animation-duration: 5s;
+            }
+
+            @keyframes move_right {
+                from {left: 0px;}
+                to {left: 990px;}
+            }
+
+            
+            .item {
+                width: 990px;
+                height: 435px;
+            }*/
+.slider_cards_pets_for_adoption_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  scroll-behavior: smooth;
+}
+
+.pet_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.slider_name_button_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 165px;
+}
+
+.pet_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 187px;
+  height: 52px;
+  padding: 15px 45px;
+  background-color: #FAFAFA;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.slider_cards_pets_for_adoption_1:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 10px 10px #f2f2f2;
+          box-shadow: 10px 10px 10px 10px #f2f2f2;
+}
+
+.slider_cards_pets_for_adoption_1:hover .pet_button {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.slider_cards_pets_for_adoption_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  scroll-behavior: smooth;
+}
+
+.slider_cards_pets_for_adoption_2 .pet_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.slider_cards_pets_for_adoption_2 .slider_name_button_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 165px;
+}
+
+.slider_cards_pets_for_adoption_2 .pet_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 187px;
+  height: 52px;
+  padding: 15px 45px;
+  background-color: #FAFAFA;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.slider_cards_pets_for_adoption_2:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 10px 10px #f2f2f2;
+          box-shadow: 10px 10px 10px 10px #f2f2f2;
+}
+
+.slider_cards_pets_for_adoption_2:hover .pet_button {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.slider_cards_pets_for_adoption_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  scroll-behavior: smooth;
+}
+
+.slider_cards_pets_for_adoption_3 .pet_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.slider_cards_pets_for_adoption_3 .slider_name_button_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 165px;
+}
+
+.slider_cards_pets_for_adoption_3 .pet_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 187px;
+  height: 52px;
+  padding: 15px 45px;
+  background-color: #FAFAFA;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.slider_cards_pets_for_adoption_3:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 10px #f2f2f2;
+          box-shadow: 10px 10px 10px #f2f2f2;
+}
+
+.slider_cards_pets_for_adoption_3:hover .pet_button {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.slider_cards_pets_for_adoption_4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  scroll-behavior: smooth;
+}
+
+.pet_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.slider_name_button_4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 165px;
+}
+
+.pet_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 187px;
+  height: 52px;
+  padding: 15px 45px;
+  background-color: #FAFAFA;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.slider_cards_pets_for_adoption_4:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 10px 10px #f2f2f2;
+          box-shadow: 10px 10px 10px 10px #f2f2f2;
+}
+
+.slider_cards_pets_for_adoption_4:hover .pet_button {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.slider_cards_pets_for_adoption_5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  scroll-behavior: smooth;
+}
+
+.pet_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.slider_name_button_5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 165px;
+}
+
+.pet_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 187px;
+  height: 52px;
+  padding: 15px 45px;
+  background-color: #FAFAFA;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.slider_cards_pets_for_adoption_5:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 10px 10px #f2f2f2;
+          box-shadow: 10px 10px 10px 10px #f2f2f2;
+}
+
+.slider_cards_pets_for_adoption_5:hover .pet_button {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.slider_cards_pets_for_adoption_6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  scroll-behavior: smooth;
+}
+
+.pet_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.slider_name_button_6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 165px;
+}
+
+.pet_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 187px;
+  height: 52px;
+  padding: 15px 45px;
+  background-color: #FAFAFA;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.slider_cards_pets_for_adoption_6:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 10px 10px #f2f2f2;
+          box-shadow: 10px 10px 10px 10px #f2f2f2;
+}
+
+.slider_cards_pets_for_adoption_6:hover .pet_button {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.slider_cards_pets_for_adoption_7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  scroll-behavior: smooth;
+}
+
+.pet_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.slider_name_button_7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 165px;
+}
+
+.pet_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 187px;
+  height: 52px;
+  padding: 15px 45px;
+  background-color: #FAFAFA;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.slider_cards_pets_for_adoption_7:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 10px 10px #f2f2f2;
+          box-shadow: 10px 10px 10px 10px #f2f2f2;
+}
+
+.slider_cards_pets_for_adoption_7:hover .pet_button {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.slider_cards_pets_for_adoption_8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  scroll-behavior: smooth;
+}
+
+.pet_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.slider_name_button_8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 165px;
+}
+
+.pet_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 187px;
+  height: 52px;
+  padding: 15px 45px;
+  background-color: #FAFAFA;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.slider_cards_pets_for_adoption_8:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 10px 10px #f2f2f2;
+          box-shadow: 10px 10px 10px 10px #f2f2f2;
+}
+
+.slider_cards_pets_for_adoption_8:hover .pet_button {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.slider_cards_pets_for_adoption_9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+  cursor: pointer;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  scroll-behavior: smooth;
+}
+
+.pet_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.slider_name_button_9 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  height: 165px;
+}
+
+.pet_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 187px;
+  height: 52px;
+  padding: 15px 45px;
+  background-color: #FAFAFA;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  color: #292929;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+
+.slider_cards_pets_for_adoption_9:hover {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 10px 10px #f2f2f2;
+          box-shadow: 10px 10px 10px 10px #f2f2f2;
+}
+
+.slider_cards_pets_for_adoption_9:hover .pet_button {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.slider_button_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  padding: 23px 19px;
+  margin: 192px 0px 191px 0px;
+  background: #F6F6F6;
+  cursor: pointer;
+}
+
+.slider_button_arrow_right {
+  width: 14px;
+  height: 6px;
+  background-image: url(../../references/icons/Arrow_slider_left.svg);
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.slider_button_right:hover {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.activate_button_get_to_know_the_rest {
+  width: 261px;
+  height: 52px;
+}
+
+.more_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 261px;
+  height: 52px;
+  padding: 15px 45px;
+  background: #F1CDB3;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 130%;
+  margin: 60px 469px 100px 470px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.more_button:hover {
+  background: #FDDCC4;
+  border-radius: 100px;
+  border: 2px solid #FDDCC4;
+}
+
+.anchor_for_more_button:hover {
+  text-decoration: none;
+}
+
+.anchor_for_more_button {
+  width: 261px;
+  height: 52px;
+}
+
+.help {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 611px;
+  background: #FFFFFF;
+}
+
+.help_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 431px;
+  width: 1200px;
+  margin: 0px 0px 12px 0px;
+}
+
+.help_asking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 320px;
+  height: 90px;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  color: #545454;
+  padding: 0px 466px 60px 475px;
+}
+
+.help_title {
+  width: 320px;
+  height: 90px;
+}
+
+.help .wrapper .help_content .help_icons_names {
+  width: 100%;
+  height: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+.help_icons_names {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-y: auto;
+  width: 1026px;
+  height: 281px;
+}
+
+.icons_help_food {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 120px 0px 0px;
+  /* width: 82px;
+                    height: 113px; */
+}
+
+.icons_help_food .icon-pet-food {
+  background-image: url(../../references/icons/icon-pet-food.svg);
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+.icons_help_food .icon-pet-food:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  background-image: url(../../references/icons/icon-pet-food_recoloured_paw.svg);
+}
+
+.food {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #545454;
+  padding: 30px 0px 0px 0px;
+  cursor: pointer;
+}
+
+.icons_help_transportation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.icon-transportation {
+  background-image: url(../../references/icons/icon-transportation.svg);
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-size: contain;
+}
+
+.icons_help_transportation .icon-transportation:hover {
+  width: 100px;
+  height: 60px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+  cursor: pointer;
+  background: no-repeat;
+  background-image: url(../../references/icons/icon-transportation_for_anim.svg);
+}
+
+.transportation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #545454;
+  padding: 30px 0px 0px 0px;
+  cursor: pointer;
+}
+
+.icons_help_toys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 0px 120px;
+}
+
+.icon-toys {
+  background-image: url(../../references/icons/icon-toys.svg);
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+.icons_help_toys .icon-toys:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.toys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #545454;
+  padding: 30px 0px 0px 0px;
+  cursor: pointer;
+}
+
+.icons_help_bowls_and_cups {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 0px 120px;
+}
+
+.icon-bowls-and-cups {
+  background-image: url(../../references/icons/icon-bowls-and-cups.svg);
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin: 0px 120px 30px 0px;
+}
+
+.bowls-and-cups {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #545454;
+  margin: 0px 120px 55px 0px;
+  cursor: pointer;
+}
+
+.icons_help_bowls_and_cups .icon-bowls-and-cups:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  background-image: url(../../references/icons/icon-bowls-and-cups_recoloured.svg);
+}
+
+.icons_help_shampoos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+
+.icon-shampoos {
+  background-image: url(../../references/icons/icon-shampoos.svg);
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin: 0px 0px 30px 0px;
+}
+
+.shampoos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #545454;
+  margin: 0px 0px 55px 0px;
+  cursor: pointer;
+}
+
+.icons_help_shampoos .icon-shampoos:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  background-image: url(../../references/icons/icon-shampoos_recoloured.svg);
+}
+
+.icons_help_vitamins {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 120px 0px 84px;
+}
+
+.icon-vitamins {
+  background-image: url(../../references/icons/icon-vitamins.svg);
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin: 0px 0px 30px 0px;
+}
+
+.icons_help_vitamins .icon-vitamins:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  background-image: url(../../references/icons/icon-vitamins_recoloured.svg);
+}
+
+.vitamins {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #545454;
+  cursor: pointer;
+}
+
+.icons_help_medicines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 120px 0px 0px;
+}
+
+.icon-medicines {
+  background-image: url(../../references/icons/icon-medicines.svg);
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin: 0px 0px 30px 0px;
+}
+
+.icons_help_medicines .icon-medicines:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  background-image: url(../../references/icons/icon-medicines_recoloured.svg);
+}
+
+.medicines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #545454;
+  cursor: pointer;
+}
+
+.icons_help_collars_leashes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 120px 0px 0px;
+}
+
+.collars_leashes_common_span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px 0px 30px 0px;
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+}
+
+.collars_leashes_common_span .icon-collars-leashes_anim_collar {
+  background-image: url(../../references/icons/icon-collars-leashes_without_bone_fixed_size_variant.svg);
+  cursor: pointer;
+  width: 60px;
+  height: 40px;
+  z-index: 1;
+  position: relative;
+}
+
+.collars_leashes_common_span .icon-collars-leashes_anim_bone {
+  background-image: url(../../references/icons/icon-collars-leashes_only_bone_fixed_size_variant.svg);
+  cursor: pointer;
+  width: 60px;
+  height: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+.collars_leashes_common_span .icon-collars-leashes_anim_collar:hover {
+  cursor: pointer;
+}
+
+.collars_leashes_common_span .icon-collars-leashes_anim_bone:hover {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: collars_leashes_anim;
+          animation-name: collars_leashes_anim;
+  cursor: pointer;
+}
+
+@-webkit-keyframes collars_leashes_anim {
+  0% {
+    -webkit-transform-origin: top center;
+            transform-origin: top center;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform-origin: top center;
+            transform-origin: top center;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  75% {
+    -webkit-transform-origin: top center;
+            transform-origin: top center;
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform-origin: top center;
+            transform-origin: top center;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes collars_leashes_anim {
+  0% {
+    -webkit-transform-origin: top center;
+            transform-origin: top center;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform-origin: top center;
+            transform-origin: top center;
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  75% {
+    -webkit-transform-origin: top center;
+            transform-origin: top center;
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform-origin: top center;
+            transform-origin: top center;
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+/*.icon-collars-leashes {
+                        background-image: url(../../references/icons/icon-collars-leashes.svg);
+                        width: 60px;
+                        height: 60px;
+                        display: inline-block;
+                        margin: 0px 0px 30px 0px;
+                    }*/
+.collars-leashes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #545454;
+  cursor: pointer;
+}
+
+.icons_help_sleeping_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 84px 0px 0px;
+}
+
+.icon-sleeping-area {
+  background-image: url(../../references/icons/icon-sleeping-area.svg);
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  margin: 0px 0px 30px 0px;
+}
+
+.icons_help_sleeping_area .icon-sleeping-area:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  background-image: url(../../references/icons/icon-sleeping-area_awake_cat.svg);
+}
+
+.sleeping-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  color: #545454;
+  cursor: pointer;
+}
+
+.donation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 462px;
+  background: #F6F6F6;
+}
+
+.donation_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 915px;
+  height: 282px;
+  margin: 80px 162px 100px 163px;
+}
+
+.donation_content .donation_dog {
+  width: 505px;
+  height: 261px;
+  margin: 11px 30px 10px 0px;
+}
+
+.donation_content .donation_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 380px;
+  height: 282px;
+}
+
+.donation_content .make_donation {
+  width: 300px;
+  height: 90px;
+}
+
+.donation_content .name_of_the_bank {
+  width: 307px;
+  height: 17px;
+  letter-spacing: 0.05em;
+}
+
+.donation_content .credit_card_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 10px 15px;
+  width: 349px;
+  height: 43px;
+  background: #F1CDB3;
+  border-radius: 9px;
+  border: 2px solid #F1CDB3;
+  cursor: pointer;
+}
+
+.donation_content .credit_card_button:hover {
+  background: #FDDCC4;
+  border: 2px solid #FDDCC4;
+}
+
+.donation_content .credit_card_number_icon_for_donation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 319px;
+  height: 23px;
+}
+
+.donation_content .credit_card_number_icon_for_donation:hover {
+  text-decoration: none;
+}
+
+.donation_content .icon_credit_card {
+  background-image: url(../../references/icons/credit-card.svg);
+  width: 30px;
+  height: 23px;
+  display: inline-block;
+}
+
+.donation_content .bank_card_number {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  width: 274px;
+  height: 23px;
+  color: #545454;
+  letter-spacing: 0.055em;
+}
+
+.donation_content .legal_information {
+  width: 380px;
+  height: 72px;
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B2B2B2;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 350px;
+  background: -webkit-gradient(linear, left top, right top, from(#43342d), to(#19191b));
+  background: linear-gradient(to right, #43342d, #19191b);
+}
+
+.footer_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1200px;
+  height: 310px;
+  margin: 20px 40px 0px 20px;
+}
+
+.footer_content_contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 278px;
+  height: 234px;
+  margin: 16px 0px 60px 0px;
+}
+
+.footer_contacts_text {
+  width: 290px;
+  height: 90px;
+  color: #FFFFFF;
+}
+
+.email_and_email_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 251px;
+  height: 32px;
+}
+
+.icon-email {
+  background-image: url(../../references/icons/icon-email.svg);
+  width: 40px;
+  height: 32px;
+  display: inline-block;
+}
+
+.email {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.phone {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+}
+
+.phone_and_phone_number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 239px;
+  height: 32px;
+}
+
+.icon-phone {
+  background-image: url(../../references/icons/icon-phone.svg);
+  width: 40px;
+  height: 32px;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer_content_address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 302px;
+  height: 234px;
+  margin: 16px 0px 60px 0px;
+}
+
+.footer_address_text {
+  width: 270px;
+  height: 90px;
+  color: #FFFFFF;
+}
+
+.address_first_and_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 302px;
+  height: 46px;
+}
+
+.icon-marker_first {
+  background-image: url(../../references/icons/icon-marker_first.svg);
+  width: 22px;
+  height: 32px;
+  display: inline-block;
+}
+
+.location_first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  width: 260px;
+  height: 46px;
+  padding: 0px 0px 0px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.address_second_and_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 302px;
+  height: 32px;
+}
+
+.icon-marker_second {
+  background-image: url(../../references/icons/icon-marker_second.svg);
+  width: 22px;
+  height: 32px;
+  display: inline-block;
+}
+
+.location_second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  padding: 0px 32px 0px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.footer_picture {
+  margin: 10px 0px 0px 0px;
+  width: 300px;
+  height: 310px;
+}
+
+h2 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.4rem;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.start_screen {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 160%;
+  color: #CDCDCD;
+}
+
+h3 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 130%;
+  color: #545454;
+  letter-spacing: 0.06em;
+}
+
+.about {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 160%;
+  color: #4C4C4C;
+}
+
+h4 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 115%;
+  color: #F1CDB3;
+}
+
+h5 {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 110%;
+  color: #545454;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 3840px) {
+  .burger_wrapper {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279.9px) {
+  .wrapper {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header_elements {
+    width: 708px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: -30px 0px 0px 0px;
+  }
+  .burger_wrapper {
+    display: none;
+  }
+  .logo {
+    width: 184px;
+    height: 60px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0px 81px 0px 0px;
+    text-decoration: none;
+  }
+  .start_navigation {
+    width: 443px;
+    height: 27px;
+  }
+  .start_screen {
+    height: 1165px;
+  }
+  .intro_elements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 569px;
+    height: 1015px;
+    margin: -30px 80px 0px 79px;
+  }
+  .intro_content {
+    width: 460px;
+    height: 332px;
+    margin: 0px 54px 100px 55px;
+  }
+  .intro_button {
+    margin: 0px 127px 0px 126px;
+  }
+  .intro_picture {
+    max-width: 569px;
+    max-height: 593px;
+  }
+  .start_screen_picture {
+    max-width: 569px;
+    max-height: 593px;
+    margin: 0px 0px 0px 70px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .intro_background_picture {
+    height: 1165px;
+    width: 100%;
+  }
+  .background_image_start-screen {
+    width: 768px;
+    height: 1165px;
+    background-image: url(../../references/pics/background/start_screen_background_768.jpg);
+  }
+  .about {
+    width: 100%;
+    height: 1048px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .layout-2-columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 437px;
+    height: 868px;
+  }
+  .layout-2-columns :nth-child(1) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .layout-2-columns :nth-chil(2) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .about_text :nth-child(1) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .about_text :nth-child(2) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .about_text :nth-child(3) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .about_picture {
+    margin: 80px 68px 0px 68px;
+  }
+  .friends {
+    width: 100%;
+    height: 877px;
+    margin: 0px !important;
+  }
+  .pets_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 708px;
+    height: 697px;
+  }
+  .friends_title {
+    width: 400px;
+    height: 90px;
+    margin: 0px 154px 60px 154px;
+  }
+  .slider_pets {
+    width: 708px;
+    height: 435px;
+  }
+  .carousel_wrapper {
+    width: 580px;
+    height: 435px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    overflow: hidden;
+    -webkit-column-gap: 40px;
+            column-gap: 40px;
+  }
+  .carousel_moveit {
+    position: relative;
+    left: 0px;
+  }
+  .carousel_moveit {
+    width: 580px;
+    height: 435px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    overflow: hidden;
+    -webkit-column-gap: 40px;
+            column-gap: 40px;
+  }
+  .movement_right {
+    -webkit-animation-name: move_right;
+            animation-name: move_right;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+  }
+  @-webkit-keyframes move_right {
+    from {
+      left: 0px;
+    }
+    to {
+      left: 580px;
+    }
+  }
+  @keyframes move_right {
+    from {
+      left: 0px;
+    }
+    to {
+      left: 580px;
+    }
+  }
+  .item {
+    width: 890px;
+    height: 435px;
+  }
+  /*.slider_cards_pets_for_adoption_3 {
+                    display: hidden;
+                }*/
+  /*.slider_cards_pets_for_adoption_1:hover {
+                    animation-duration: 1s;
+                    animation-name: rotate_full_3d_y;                                                          
+                }
+
+                @keyframes rotate_full_3d_y {                    
+                    0% {
+                        transform: rotate3d(0, 1, 0, 0deg);
+                    }
+                    50% {                                               
+                        transform: rotate3d(0, 1, 0, 180deg);
+                        color:#FAFAFA;                                               
+                        background-image: url(../../references/pets_card_back_side.jpg);
+                        .slider_cards_pets_for_adoption_1 .front_side {
+                            display: none;
+                        } 
+                        .slider_name_button_1 .pet_name {
+                            display: none;
+                        }
+                        .slider_name_button_1 .pet_button {
+                            visibility: hidden;
+                        }
+                    }
+                    100% {
+                        transform: rotate3d(0, 1, 0, 360deg);
+                    }
+                }*/
+  .activate_button_get_to_know_the_rest {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: column;
+        -ms-flex-align: column;
+            align-items: column;
+    width: 261px;
+    height: 52px;
+    margin: 60px 224px 100px 224px;
+  }
+  .anchor_for_more_button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 261px;
+    height: 52px;
+  }
+  .more_button {
+    margin: 0px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 261px;
+    height: 52px;
+  }
+  .help {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 779px;
+  }
+  .help_content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 630px;
+    height: 599px;
+    margin: 80px 59px 100px 59px;
+  }
+  .help_asking {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 90px;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    padding: 0px !important;
+  }
+  .help_icons_names {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: space-between;
+        -ms-flex-align: space-between;
+            align-items: space-between;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    row-gap: 55px;
+    -webkit-column-gap: 60px;
+            column-gap: 60px;
+    width: 630px;
+    height: 449px;
+    margin: 0 auto;
+  }
+  .icons_help_food {
+    margin: 0 auto;
+    width: 170px;
+    height: 113px;
+  }
+  .icons_help_food .icon-pet-food:hover {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon-pet-food_recoloured_paw.svg);
+  }
+  .icons_help_food .food {
+    cursor: pointer;
+  }
+  .icons_help_transportation {
+    margin: 0 auto;
+    width: 170px;
+    height: 113px;
+  }
+  .icons_help_transportation .icon-transportation:hover {
+    width: 100px;
+    height: 60px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+    cursor: pointer;
+    background: no-repeat;
+    background-image: url(../../references/icons/icon-transportation_for_anim.svg);
+  }
+  .icons_help_transportation .transportation {
+    cursor: pointer;
+  }
+  .icons_help_toys {
+    margin: 0 auto;
+    width: 170px;
+    height: 113px;
+  }
+  .icons_help_toys .icon-toys:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+  }
+  .icons_help_toys .toys {
+    cursor: pointer;
+  }
+  .icons_help_bowls_and_cups {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    max-width: 170px;
+    max-height: 113px;
+  }
+  .icon-bowls-and-cups {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+  }
+  .bowls-and-cups {
+    margin: 0 auto;
+    max-width: 170px;
+    max-height: 23px;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+  }
+  .icons_help_bowls_and_cups .icon-bowls-and-cups:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon-bowls-and-cups_recoloured.svg);
+  }
+  .icons_help_bowls_and_cups .bowls-and-cups {
+    cursor: pointer;
+  }
+  .icons_help_shampoos {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 170px;
+    height: 113px;
+  }
+  .icon-shampoos {
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+  }
+  .shampoos {
+    margin: 0 auto;
+    max-width: 170px;
+    max-height: 23px;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+  }
+  .icons_help_shampoos .icon-shampoos:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon-shampoos_recoloured.svg);
+  }
+  .icons_help_shampoos .shampoos {
+    cursor: pointer;
+  }
+  .icons_help_vitamins {
+    margin: 0 auto;
+    width: 170px;
+    height: 113px;
+  }
+  .icons_help_vitamins .icon-vitamins:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon-vitamins_recoloured.svg);
+  }
+  .icons_help_vitamins .vitamins {
+    cursor: pointer;
+  }
+  .icons_help_medicines {
+    margin: 0 auto;
+    width: 170px;
+    height: 113px;
+  }
+  .icons_help_medicines .icon-medicines:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon-medicines_recoloured.svg);
+  }
+  .icons_help_medicines .medicines {
+    cursor: pointer;
+  }
+  .icons_help_collars_leashes {
+    margin: 0 auto;
+    width: 170px;
+    height: 113px;
+  }
+  .collars_leashes_common_span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0px 0px 30px 0px;
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+  }
+  .collars_leashes_common_span .icon-collars-leashes_anim_collar {
+    background-image: url(../../references/icons/icon-collars-leashes_without_bone_fixed_size_variant.svg);
+    cursor: pointer;
+    width: 60px;
+    height: 40px;
+    z-index: 1;
+    position: relative;
+  }
+  .collars_leashes_common_span .icon-collars-leashes_anim_bone {
+    background-image: url(../../references/icons/icon-collars-leashes_only_bone_fixed_size_variant.svg);
+    cursor: pointer;
+    width: 60px;
+    height: 20px;
+    z-index: 2;
+    position: relative;
+  }
+  .collars_leashes_common_span .icon-collars-leashes_anim_collar:hover {
+    cursor: pointer;
+  }
+  .collars_leashes_common_span .icon-collars-leashes_anim_bone:hover {
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: collars_leashes_anim;
+            animation-name: collars_leashes_anim;
+    cursor: pointer;
+  }
+  @-webkit-keyframes collars_leashes_anim {
+    0% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    25% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(10deg);
+              transform: rotate(10deg);
+    }
+    75% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+    }
+    100% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+  @keyframes collars_leashes_anim {
+    0% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    25% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(10deg);
+              transform: rotate(10deg);
+    }
+    75% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+    }
+    100% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+  .icons_help_collars_leashes .collars-leashes {
+    cursor: pointer;
+  }
+  .icons_help_sleeping_area {
+    margin: 0 auto;
+    width: 170px;
+    height: 113px;
+  }
+  .icons_help_sleeping_area .icon-sleeping-area:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon-sleeping-area_awake_cat.svg);
+  }
+  .icons_help_sleeping_area .sleeping-area {
+    cursor: pointer;
+  }
+  .donation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 783px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 60px;
+  }
+  .donation_content {
+    width: 708px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 60px;
+    margin: 0px !important;
+  }
+  .donation_content :nth-child(1) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .donation_text :nth-child(1) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .donation_text :nth-child(2) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .donation_text :nth-child(3) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .donation_text :nth-child(4) {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .donation_text {
+    width: 380px;
+    height: 282px;
+    row-gap: 20px;
+  }
+  .donation_dog {
+    width: 505px;
+    height: 261px;
+  }
+  .footer {
+    height: 639px;
+  }
+  .footer_content {
+    max-width: 708px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 64px;
+            column-gap: 64px;
+    margin: 15px 0px 0px 0px;
+  }
+  .footer_picture {
+    margin: 4px 0px 0px 0px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767.9px) {
+  .wrapper {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body.active {
+    overflow: hidden;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  body.active .scrollbar {
+    width: 0px;
+    display: none;
+  }
+  body.active .logo {
+    opacity: 0;
+  }
+  .header {
+    z-index: 5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .header_elements {
+    width: 257px;
+    margin: -30px 0px 0px -43px;
+  }
+  .logo {
+    width: 184px;
+    height: 60px;
+    margin: 0px 43px 0px 0px;
+    text-decoration: none;
+  }
+  .overlay_header.active {
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 205, 179, 0.2);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all 5s;
+    transition: all 5s;
+    overflow: hidden;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  .overlay_header.active .scrollbar {
+    width: 0px;
+    display: none;
+  }
+  .overlay_header {
+    display: none;
+  }
+  .burger_wrapper {
+    overflow: hidden;
+    z-index: 8;
+    width: 310px;
+    height: 100%;
+    background-color: rgba(41, 41, 41, 0.95);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    max-width: 0px;
+    color: #FAFAFA;
+    text-align: center;
+    -webkit-transition: right 5s ease-in-out;
+    transition: right 5s ease-in-out;
+  }
+  .burger_wrapper.active {
+    max-width: 310px;
+    -webkit-transition: right 5s ease-in-out;
+    transition: right 5s ease-in-out;
+    overflow: hidden;
+  }
+  .hamburger_menu_button {
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 45px;
+    right: 43px;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    border: 1px solid rgba(230, 230, 230, 0);
+    background: rgba(255, 255, 255, 0);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    cursor: pointer;
+  }
+  .hamburger_menu_button .burger_menu_icon_outer,
+  .hamburger_menu_button .burger_menu_icon_outer::before,
+  .hamburger_menu_button .burger_menu_icon_outer::after {
+    z-index: 100;
+    display: inline-block;
+    top: 45px;
+    right: 43px;
+    width: 30px;
+    height: 3px;
+    background-color: #F1CDB3;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 5px;
+  }
+  .hamburger_menu_button .burger_menu_icon_outer,
+  .hamburger_menu_button .burger_menu_icon_outer::before,
+  .hamburger_menu_button .burger_menu_icon_outer::after {
+    content: "";
+  }
+  .hamburger_menu_button .burger_menu_icon_outer::before {
+    left: 0;
+    -webkit-transform: translateY(-22px);
+            transform: translateY(-22px);
+  }
+  .hamburger_menu_button .burger_menu_icon_outer::after {
+    left: 0;
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  .hamburger_menu_button .burger_menu_icon_outer.active {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .logo_burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    cursor: pointer;
+    width: 184px;
+    height: 60px;
+    margin: 30px 53px 158px 15px;
+    text-decoration: none;
+  }
+  .menu {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 243px;
+    height: 327px;
+  }
+  .burger_menu_icon:hover .logo_burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    cursor: pointer;
+    width: 184px;
+    height: 60px;
+    margin: 30px 53px 158px 15px;
+    visibility: visible;
+  }
+  .burger_center_in_parent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main_burger_menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 243px;
+    height: 327px;
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 160%;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .main_burger_menu .for_burger_about {
+    text-decoration: none;
+    color: #CDCDCD;
+    width: 243px;
+    height: 54px;
+  }
+  .main_burger_menu .for_burger_about:hover {
+    color: #FAFAFA;
+  }
+  .for_burger_about:hover::after {
+    content: '';
+    width: 243px;
+    height: 3px;
+    position: absolute;
+    top: 300px;
+    right: 35px;
+    background: #F1CDB3;
+  }
+  .main_burger_menu .for_burger_pets {
+    text-decoration: none;
+    color: #CDCDCD;
+    width: 243px;
+    height: 54px;
+  }
+  .main_burger_menu .for_burger_pets:hover {
+    color: #FAFAFA;
+  }
+  .for_burger_pets:hover::after {
+    content: '';
+    width: 123px;
+    height: 3px;
+    position: absolute;
+    top: 390px;
+    right: 92px;
+    background: #F1CDB3;
+  }
+  .main_burger_menu .for_burger_help {
+    text-decoration: none;
+    color: #CDCDCD;
+    width: 243px;
+    height: 54px;
+  }
+  .main_burger_menu .for_burger_help:hover {
+    color: #FAFAFA;
+  }
+  .for_burger_help:hover::after {
+    content: '';
+    width: 225px;
+    height: 3px;
+    position: absolute;
+    top: 485px;
+    right: 42px;
+    background: #F1CDB3;
+  }
+  .main_burger_menu .for_burger_contacts {
+    text-decoration: none;
+    color: #CDCDCD;
+    width: 243px;
+    height: 54px;
+  }
+  .main_burger_menu .for_burger_contacts:hover {
+    color: #FAFAFA;
+  }
+  .for_burger_contacts:hover::after {
+    content: '';
+    width: 125px;
+    height: 3px;
+    position: absolute;
+    top: 572px;
+    right: 92px;
+    background: #F1CDB3;
+  }
+  .overlay_body.active {
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(241, 205, 179, 0.2);
+    background-blend-mode: soft-light;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .overlay_body {
+    display: hidden;
+  }
+  .logo {
+    text-decoration: none;
+  }
+  .logo_top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    color: #F1CDB3;
+    text-decoration: none;
+  }
+  .logo_top_cozy {
+    letter-spacing: 0.06em;
+    text-decoration: none;
+  }
+  .logo_top_house {
+    letter-spacing: 0.06em;
+    text-decoration: none;
+  }
+  .logo_bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin: 10px 1px 0px 4px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+  }
+  .start_navigation {
+    display: none;
+  }
+  .intro {
+    height: 823px;
+  }
+  .start_screen {
+    width: 100%;
+    height: 823px;
+  }
+  .intro_info_title {
+    width: 200px;
+    height: 64px;
+    font-size: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin: 0px 0px 42px 0px;
+  }
+  .intro_elements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 300px;
+    height: 673px;
+    margin: -30px 0px 0px 0px;
+  }
+  .intro_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 300px;
+    height: 296px;
+    margin: 0px 0px 105px 0px;
+  }
+  .intro_info_text {
+    width: 300px;
+    height: 96px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+  }
+  .intro_button {
+    margin: 10px 47px 0px 46px;
+  }
+  .intro_picture {
+    max-width: 260px;
+    max-height: 272px;
+  }
+  .start_screen_picture {
+    width: 30vw;
+    height: 50vh;
+    max-width: 260px;
+    max-height: 272px;
+    width: 100%;
+    margin: 0px 0px 0px 40px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .intro_background_picture {
+    height: 1165px;
+    width: 100%;
+  }
+  .background_image_start-screen {
+    width: 768px;
+    height: 1165px;
+    background-image: url(../../references/pics/background/start-screen-gradient-background_320.png);
+  }
+  .about {
+    height: 974px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .layout-2-columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 300px;
+    height: 974px;
+    padding: 0 !important;
+  }
+  .layout-2-columns :nth-child(1) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .layout-2-columns :nth-chil(2) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .about_text :nth-child(1) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .about_text :nth-child(2) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .about_text :nth-child(3) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .about_picture {
+    margin: 42px 20px 0px 20px;
+    width: 260px;
+    height: 354px;
+  }
+  .about_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 300px;
+    height: 494px;
+    margin: 0 !important;
+  }
+  .about_title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: 0px 0px 25px 0px;
+  }
+  .about_text_first_part {
+    width: 270px;
+    height: 144px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin: 0px 15px 22px 15px;
+    text-align: center;
+  }
+  .about_text_second_part {
+    width: 270px;
+    height: 239px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin: 0px 15px 0px 15px;
+    text-align: center;
+  }
+  .friends {
+    width: 100%;
+    height: 791px;
+    margin: 0px !important;
+  }
+  .pets_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 300px;
+    height: 707px;
+  }
+  .pets_content .friends_title {
+    width: 300px;
+    height: 64px;
+    margin: 0px 0px 42px 0px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    letter-spacing: 0.06em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .activate_button_get_to_know_the_rest {
+    margin: -50px 0px 0px -940px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 260px;
+    height: 52px;
+  }
+  .slider_pets {
+    width: 279px;
+    height: 507px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0px 0px 42px 0px;
+  }
+  .carousel_wrapper {
+    width: 270px;
+    height: 435px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    overflow: hidden;
+  }
+  .carousel_moveit {
+    width: 270px;
+    height: 435px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    overflow: hidden;
+  }
+  .slider_cards_pets_for_adoption_2 {
+    display: none;
+  }
+  .slider_cards_pets_for_adoption_3 {
+    display: none;
+  }
+  .slider_cards_pets_for_adoption_1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 0px 0px 20px 0px;
+  }
+  .slider_button_left {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin: 0px !important;
+  }
+  .slider_button_right {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    margin: 0px !important;
+  }
+  .help {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 745px;
+    width: 100%;
+  }
+  .help_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    max-width: 290px;
+    height: 745px;
+  }
+  .help_asking {
+    width: 230px;
+    height: 64px;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    padding: 0px !important;
+  }
+  .help_title {
+    width: 230px;
+    height: 64px;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+  .help_icons_names {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(130px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    width: 290px;
+    max-height: 555px;
+    row-gap: 30px;
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+    margin: 0px 0px 42px 0px;
+  }
+  /*.help_icons_names {
+            display: flex;
+            //flex-basis: 130px;
+            //flex-direction: column;
+            flex-wrap: wrap;
+            //justify-content: space-between;
+            //align-items: space-between;
+            width: 290px;
+            height: 555px;                          
+            row-gap: 30px;
+            column-gap: 30px;
+            padding: 0px 0px 42px 0px;
+            flex-shrink: 0;
+            flex-grow: 0;
+            flex: 50%;                                         
+        }*/
+  .icons_help_food {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .help_content .icon-pet-food {
+    background-image: url(../../references/icons/icon_food_smaller.svg);
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_food .icon-pet-food:hover {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon_food_smaller_for_anim.svg);
+  }
+  .food {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_transportation {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-transportation {
+    background-image: url(../../references/icons/icon_transportation_smaller.svg);
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_transportation .icon-transportation:hover {
+    width: 80px;
+    height: 50px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+    cursor: pointer;
+    background: no-repeat;
+    background-image: url(../../references/icons/icon_transportation_smaller_for_anim.svg);
+  }
+  .transportation {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_toys {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-toys {
+    background-image: url(../../references/icons/icon_toys_smaller.svg);
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_toys .icon-toys:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+  }
+  .toys {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_bowls_and_cups {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-bowls-and-cups {
+    background-image: url(../../references/icons/icon_bowls_and_cups_smaller.svg);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_bowls_and_cups .icon-bowls-and-cups:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon_bowls_and_cups_smaller_for_anim.svg);
+  }
+  .bowls-and-cups {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_shampoos {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-shampoos {
+    background-image: url(../../references/icons/icon_shampoos_smaller.svg);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_shampoos .icon-shampoos:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon_shampoos_smaller_for_anim.svg);
+  }
+  .shampoos {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_vitamins {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-vitamins {
+    background-image: url(../../references/icons/icon_vitamins_smaller.svg);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_vitamins .icon-vitamins:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon_vitamins_smaller_for_anim.svg);
+  }
+  .vitamins {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_medicines {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-medicines {
+    background-image: url(../../references/icons/icon_medicines_smaller.svg);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_medicines .icon-medicines:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon_medicines_smaller_for_anim.svg);
+  }
+  .medicines {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_collars_leashes {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-collars-leashes {
+    background-image: url(../../references/icons/icon_collars_leashes_smaller.svg);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .collars_leashes_common_span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0px 0px 20px 0px;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+  }
+  .collars_leashes_common_span .icon-collars-leashes_anim_collar {
+    background-image: url(../../references/icons/icon_collars_leashes_smaller_without_bone.svg);
+    cursor: pointer;
+    width: 50px;
+    height: 35px;
+    z-index: 1;
+    position: relative;
+  }
+  .collars_leashes_common_span .icon-collars-leashes_anim_bone {
+    background-image: url(../../references/icons/icon_collars_leashes_smaller_only_bone.svg);
+    cursor: pointer;
+    width: 50px;
+    height: 15px;
+    z-index: 2;
+    position: relative;
+  }
+  .collars_leashes_common_span .icon-collars-leashes_anim_collar:hover {
+    cursor: pointer;
+  }
+  .collars_leashes_common_span .icon-collars-leashes_anim_bone:hover {
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: collars_leashes_anim;
+            animation-name: collars_leashes_anim;
+    cursor: pointer;
+  }
+  @-webkit-keyframes collars_leashes_anim {
+    0% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    25% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(10deg);
+              transform: rotate(10deg);
+    }
+    75% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+    }
+    100% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+  @keyframes collars_leashes_anim {
+    0% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    25% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(10deg);
+              transform: rotate(10deg);
+    }
+    75% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+    }
+    100% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+  .collars-leashes {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_sleeping_area {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-sleeping-area {
+    background-image: url(../../references/icons/icon_sleeping_area_smaller.svg);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_sleeping_area .icon-sleeping-area:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon_sleeping_area_smaller_awake_cat.svg);
+  }
+  .sleeping-area {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .donation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 542px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 42px;
+  }
+  .donation_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 60px;
+    margin: 0px !important;
+    width: 300px;
+  }
+  .donation_content :nth-child(1) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .donation_text :nth-child(1) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .donation_text :nth-child(2) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .donation_text :nth-child(3) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .donation_text :nth-child(4) {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .donation_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: space-between;
+        -ms-flex-align: space-between;
+            align-items: space-between;
+    max-width: 300px;
+    height: 281px;
+    row-gap: 20px;
+  }
+  .donation_dog {
+    max-width: 260px;
+    max-height: 135.2px;
+  }
+  .donation_text .make_donation {
+    width: 300px;
+    height: 64px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+  .name_of_the_bank {
+    max-width: 273px;
+    max-height: 24px;
+    font-size: 13px;
+    line-height: 160%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    margin: 0px 0px 0px 10px;
+  }
+  .donation_button {
+    width: 281px;
+    height: 43px;
+    margin: 0px 0px 0px 10px;
+  }
+  .credit_card_button {
+    max-width: 281px;
+    max-height: 43px;
+  }
+  .donation_content .bank_card_number {
+    max-width: 206px;
+    max-height: 17px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+  }
+  .legal_information {
+    max-width: 280px;
+    max-height: 90px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: justify;
+    margin: 0px 0px 0px 10px;
+  }
+  .footer {
+    height: 869px;
+  }
+  .footer_content {
+    max-width: 300px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 40px;
+    margin: 30px 0px 0px 0px;
+  }
+  .footer_content_contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 278px;
+    height: 208px;
+    text-align: center;
+    margin: 0 !important;
+  }
+  .footer_contacts_text {
+    width: 278px;
+    height: 64px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+  .footer_content_address {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 300px;
+    height: 222px;
+    text-align: center;
+    margin: 0 !important;
+  }
+  .footer_address_text {
+    width: 278px;
+    height: 64px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+  .address_first_and_icon {
+    width: 300px;
+    height: 46px;
+  }
+  .location_first {
+    max-width: 258.28px;
+    height: 46px;
+    font-size: 20px;
+    margin: 0px 0px 0px -10px;
+  }
+  .footer_picture {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    max-width: 80vw;
+    max-height: 80vh;
+    width: 260px;
+    height: 269px;
+    margin: 19px 0px 0px -60px;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 319.9px) {
+  .wrapper {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .header_elements {
+    width: 257px;
+    margin: -30px 0px 0px -43px;
+  }
+  .logo {
+    width: 184px;
+    height: 60px;
+    margin: 0px 43px 0px 0px;
+    text-decoration: none;
+  }
+  .start_navigation {
+    display: none;
+  }
+  .burger_wrapper {
+    z-index: 1;
+    width: 320px;
+    height: 100%;
+    background-color: #292929;
+    position: relative;
+    color: #FAFAFA;
+    margin: 0px !important;
+  }
+  .burger_menu {
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+    background-image: url(../../references/icons/Burger.svg);
+    cursor: pointer;
+  }
+  .burger_menu:hover {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .main_menu {
+    text-decoration: none;
+  }
+  .for_burger {
+    text-decoration: none;
+  }
+  .intro {
+    height: 823px;
+  }
+  .start_screen {
+    width: 100%;
+    height: 823px;
+  }
+  .intro_info_title {
+    width: 200px;
+    height: 64px;
+    font-size: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin: 0px 0px 42px 0px;
+  }
+  .intro_elements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 300px;
+    height: 673px;
+    margin: -30px 0px 0px 0px;
+  }
+  .intro_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 300px;
+    height: 296px;
+    margin: 0px 0px 105px 0px;
+  }
+  .intro_info_text {
+    width: 300px;
+    height: 96px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+  }
+  .intro_button {
+    margin: 10px 47px 0px 46px;
+  }
+  .intro_picture {
+    max-width: 260px;
+    max-height: 272px;
+  }
+  .start_screen_picture {
+    width: 30vw;
+    height: 50vh;
+    max-width: 260px;
+    max-height: 272px;
+    width: 100%;
+    margin: 0px 0px 0px 40px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .intro_background_picture {
+    height: 1165px;
+    width: 100%;
+  }
+  .background_image_start-screen {
+    width: 768px;
+    height: 1165px;
+    background-image: url(../../references/pics/background/start-screen-gradient-background_320.png);
+  }
+  .about {
+    height: 974px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .layout-2-columns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 300px;
+    height: 974px;
+    padding: 0 !important;
+  }
+  .layout-2-columns :nth-child(1) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .layout-2-columns :nth-chil(2) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .about_text :nth-child(1) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .about_text :nth-child(2) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .about_text :nth-child(3) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .about_picture {
+    margin: 42px 20px 0px 20px;
+    width: 260px;
+    height: 354px;
+  }
+  .about_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 300px;
+    height: 494px;
+    margin: 0 !important;
+  }
+  .about_title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: 0px 0px 25px 0px;
+  }
+  .about_text_first_part {
+    width: 270px;
+    height: 144px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin: 0px 15px 22px 15px;
+    text-align: center;
+  }
+  .about_text_second_part {
+    width: 270px;
+    height: 239px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin: 0px 15px 0px 15px;
+    text-align: center;
+  }
+  .friends {
+    width: 100%;
+    height: 791px;
+    margin: 0px !important;
+  }
+  .pets_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 300px;
+    height: 707px;
+  }
+  .friends_title {
+    width: 300px;
+    height: 64px;
+    margin: 0px 0px 42px 0px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    letter-spacing: 0.06em;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .activate_button_get_to_know_the_rest {
+    margin: -50px 0px 0px -960px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 260px;
+    height: 52px;
+  }
+  .slider_pets {
+    width: 279px;
+    height: 507px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0px 0px 42px 0px;
+  }
+  .slider_cards_pets_for_adoption_2 {
+    display: none;
+  }
+  .slider_cards_pets_for_adoption_3 {
+    display: none;
+  }
+  .slider_cards_pets_for_adoption_1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 0px 0px 20px 0px;
+  }
+  .slider_button_left {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin: 0px !important;
+  }
+  .slider_button_right {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    margin: 0px !important;
+  }
+  .help {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 745px;
+    width: 100%;
+  }
+  .help_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    max-width: 290px;
+    height: 745px;
+  }
+  .help_asking {
+    width: 230px;
+    height: 64px;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    padding: 0px !important;
+  }
+  .help_title {
+    width: 230px;
+    height: 64px;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+  .help_icons_names {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(130px, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    width: 290px;
+    max-height: 555px;
+    row-gap: 30px;
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+    margin: 0px 0px 42px 0px;
+  }
+  /*.help_icons_names {
+                        display: flex;
+                        //flex-basis: 130px;
+                        //flex-direction: column;
+                        flex-wrap: wrap;
+                        //justify-content: space-between;
+                        //align-items: space-between;
+                        width: 290px;
+                        height: 555px;                          
+                        row-gap: 30px;
+                        column-gap: 30px;
+                        padding: 0px 0px 42px 0px;
+                        flex-shrink: 0;
+                        flex-grow: 0;
+                        flex: 50%;                                         
+                    }*/
+  .icons_help_food {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .help_content .icon-pet-food {
+    background-image: url(../../references/icons/icon_food_smaller.svg);
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_food .icon-pet-food:hover {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon_food_smaller_for_anim.svg);
+  }
+  .food {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_transportation {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-transportation {
+    background-image: url(../../references/icons/icon_transportation_smaller.svg);
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_transportation .icon-transportation:hover {
+    width: 80px;
+    height: 50px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+    cursor: pointer;
+    background: no-repeat;
+    background-image: url(../../references/icons/icon_transportation_smaller_for_anim.svg);
+  }
+  .transportation {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_toys {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-toys {
+    background-image: url(../../references/icons/icon_toys_smaller.svg);
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_toys .icon-toys:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+  }
+  .toys {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_bowls_and_cups {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-bowls-and-cups {
+    background-image: url(../../references/icons/icon_bowls_and_cups_smaller.svg);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_bowls_and_cups .icon-bowls-and-cups:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon_bowls_and_cups_smaller_for_anim.svg);
+  }
+  .bowls-and-cups {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_shampoos {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-shampoos {
+    background-image: url(../../references/icons/icon_shampoos_smaller.svg);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_shampoos .icon-shampoos:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon_shampoos_smaller_for_anim.svg);
+  }
+  .shampoos {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_vitamins {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-vitamins {
+    background-image: url(../../references/icons/icon_vitamins_smaller.svg);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_vitamins .icon-vitamins:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon_vitamins_smaller_for_anim.svg);
+  }
+  .vitamins {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_medicines {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-medicines {
+    background-image: url(../../references/icons/icon_medicines_smaller.svg);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_medicines .icon-medicines:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon_medicines_smaller_for_anim.svg);
+  }
+  .medicines {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_collars_leashes {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-collars-leashes {
+    background-image: url(../../references/icons/icon_collars_leashes_smaller.svg);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .collars_leashes_common_span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0px 0px 20px 0px;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+  }
+  .collars_leashes_common_span .icon-collars-leashes_anim_collar {
+    background-image: url(../../references/icons/icon_collars_leashes_smaller_without_bone.svg);
+    cursor: pointer;
+    width: 50px;
+    height: 35px;
+    z-index: 1;
+    position: relative;
+  }
+  .collars_leashes_common_span .icon-collars-leashes_anim_bone {
+    background-image: url(../../references/icons/icon_collars_leashes_smaller_only_bone.svg);
+    cursor: pointer;
+    width: 50px;
+    height: 15px;
+    z-index: 2;
+    position: relative;
+  }
+  .collars_leashes_common_span .icon-collars-leashes_anim_collar:hover {
+    cursor: pointer;
+  }
+  .collars_leashes_common_span .icon-collars-leashes_anim_bone:hover {
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-name: collars_leashes_anim;
+            animation-name: collars_leashes_anim;
+    cursor: pointer;
+  }
+  @-webkit-keyframes collars_leashes_anim {
+    0% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    25% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(10deg);
+              transform: rotate(10deg);
+    }
+    75% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+    }
+    100% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+  @keyframes collars_leashes_anim {
+    0% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    25% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(10deg);
+              transform: rotate(10deg);
+    }
+    75% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+    }
+    100% {
+      -webkit-transform-origin: top center;
+              transform-origin: top center;
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+  }
+  .collars-leashes {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .icons_help_sleeping_area {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 130px;
+    height: 87px;
+  }
+  .icon-sleeping-area {
+    background-image: url(../../references/icons/icon_sleeping_area_smaller.svg);
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+  .icons_help_sleeping_area .icon-sleeping-area:hover {
+    -webkit-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+    background-image: url(../../references/icons/icon_sleeping_area_smaller_awake_cat.svg);
+  }
+  .sleeping-area {
+    margin: 0 auto;
+    max-width: 130px;
+    max-height: 17px;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    padding: 0 !important;
+    cursor: pointer;
+  }
+  .donation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 542px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 42px;
+  }
+  .donation_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 60px;
+    margin: 0px !important;
+    width: 300px;
+  }
+  .donation_content :nth-child(1) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .donation_text :nth-child(1) {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .donation_text :nth-child(2) {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .donation_text :nth-child(3) {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .donation_text :nth-child(4) {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .donation_text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: space-between;
+        -ms-flex-align: space-between;
+            align-items: space-between;
+    max-width: 300px;
+    height: 281px;
+    row-gap: 20px;
+  }
+  .donation_dog {
+    max-width: 260px;
+    max-height: 135.2px;
+  }
+  .donation_text .make_donation {
+    width: 300px;
+    height: 64px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+  .name_of_the_bank {
+    max-width: 273px;
+    max-height: 24px;
+    font-size: 13px;
+    line-height: 160%;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+  .donation_button {
+    width: 281px;
+    height: 43px;
+  }
+  .credit_card_button {
+    max-width: 281px;
+    max-height: 43px;
+  }
+  .donation_content .bank_card_number {
+    max-width: 206px;
+    max-height: 17px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+  }
+  .legal_information {
+    max-width: 280px;
+    max-height: 90px;
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: justify;
+  }
+  .footer {
+    height: 869px;
+  }
+  .footer_content {
+    max-width: 300px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    row-gap: 40px;
+    margin: 30px 0px 0px 0px;
+  }
+  .footer_content_contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 278px;
+    height: 208px;
+    text-align: center;
+    margin: 0 !important;
+  }
+  .footer_contacts_text {
+    width: 278px;
+    height: 64px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+  .footer_content_address {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 300px;
+    height: 222px;
+    text-align: center;
+    margin: 0 !important;
+  }
+  .footer_address_text {
+    width: 278px;
+    height: 64px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+  .address_first_and_icon {
+    width: 300px;
+    height: 46px;
+  }
+  .location_first {
+    max-width: 258.28px;
+    height: 46px;
+    font-size: 20px;
+    margin: 0px 0px 0px -10px;
+  }
+  .footer_picture {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    max-width: 80vw;
+    max-height: 80vh;
+    width: 260px;
+    height: 269px;
+    margin: 19px 0px 0px -60px;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 29, 29, 0.6);
+  background-blend-mode: soft-light;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.friends_modal {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  width: 942px;
+  height: 556px;
+  overflow: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  cursor: url(../../references/icons/cursor_lapka.png) 2 2, auto;
+}
+
+.friends_modal .modal_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  width: 900px;
+  height: 500px;
+  background-color: #F6F6F6;
+  border-radius: 9px;
+  -webkit-box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+          box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.friends_modal .modal_content .pet_info {
+  width: 900px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-radius: 9px;
+  background-color: #F6F6F6;
+}
+
+.friends_modal .modal_content .pet_info .pet_image {
+  width: 500px;
+  height: 500px;
+}
+
+.friends_modal .modal_content .pet_info .description {
+  width: 351px;
+  height: 362px;
+  margin: 55px 20px 88px 29px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.friends_modal .modal_content .pet_info .pet_name {
+  width: 200px;
+  height: 45px;
+  margin: 0px 205px 10px 0px;
+}
+
+.friends_modal .modal_content .pet_info .description {
+  width: 350px;
+  height: 102px;
+  margin: 40px 0px 40px 0px;
+}
+
+.friends_modal .modal_content .pet_info .parameters {
+  width: 180px;
+  height: 102px;
+}
+
+.friends_modal .modal_close_icon {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: rgba(1, 1, 1, 0);
+  margin: 0px 0px 500px 0px;
+}
+
+.friends_modal .modal_close_icon:hover {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  cursor: pointer;
+  background-color: rgba(241, 205, 179, 0.8);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin: 0px 0px 500px 0px;
+}
+/*# sourceMappingURL=style.css.map */
